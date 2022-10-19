@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import About from '../views/About'
-import Contact from '../views/Contact'
-import Projects from '../views/Projects'
+import About from './views/About'
+import Contact from './views/Contact'
+import Projects from './views/Projects'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
