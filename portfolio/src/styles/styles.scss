@@ -1,0 +1,63 @@
+@import "globals";
+
+body{
+    font-family: $regular;
+}
+.nav {
+    background-color: $black;
+    & ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        & .my-title {
+            font-family: $fancy;
+            padding: 20px 15px;
+            text-decoration: none;
+            font-size: 2rem;
+            & a:link {
+                text-decoration: none;
+            }
+        }
+        & .tabs {
+            display: flex;
+            flex-direction: row;
+            margin-left: 400px;
+            & li {
+                text-decoration: none;
+                padding: 35px 15px 20px 15px;
+            }
+            & a:link {
+                text-decoration: none;
+            }
+        }
+    }
+}
+.footer {
+    background-color: $black;
+    text-align: center;
+    & ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        & a:link {
+            text-decoration: none;
+        }
+    }
+    & .foot-tabs{
+        display: flex;
+        justify-content: center;
+        & li {
+            padding: 20px 15px 10px 15px;
+        }
+    }
+    & .social-media{
+        display: flex;
+        justify-content: center;
+        & li {
+            padding: 10px 15px 20px 15px;
+        }
+    }
+    & p {
+        text-align: center;
+    }
+}

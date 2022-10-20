@@ -1,7 +1,7 @@
 import Nav from './views/Nav'
 import Footer from './views/Footer'
 import About from './views/About'
-import './App.css';
+import './styles/styles.scss';
 
 function App() {
   return (

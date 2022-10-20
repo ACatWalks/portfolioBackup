@@ -5,15 +5,15 @@ function Footer() {
     return (
         <div className='footer'>
             <ul className='foot-tabs'>
-                <li><Link to="/">About Me</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/"style={{color: '#FFF8DC'}}>About Me</Link></li>
+                <li><Link to="/projects"style={{color: '#FFF8DC'}}>Projects</Link></li>
+                <li><Link to="/contact" style={{color: '#FFF8DC'}}>Contact</Link></li>
             </ul>
             <ul className='social-media'>
-            <li><a href="https://github.com/ACatWalks">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/amandacwoods/">LinkedIn</a></li>
+                <li><a href="https://github.com/ACatWalks" style={{color: '#FFF8DC'}}>GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/amandacwoods/" style={{color: '#FFF8DC'}}>LinkedIn</a></li>
             </ul>
-            <p className='copyright'>©2022 Amanda C. Woods</p>
+            <p className='copyright' style={{color: '#FFF8DC'}}>©2022 Amanda C. Woods</p>
             <Outlet />
         </div>
     )

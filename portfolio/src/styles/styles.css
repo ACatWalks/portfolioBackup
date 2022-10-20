@@ -1,0 +1,100 @@
+body {
+  font-family: "Helvetica";
+}
+
+.nav {
+  background-color: #000000;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+}
+
+.nav ul .my-title {
+  font-family: "Apple Chancery";
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.nav ul .my-title a:link {
+  text-decoration: none;
+}
+
+.nav ul .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 400px;
+}
+
+.nav ul .tabs li {
+  text-decoration: none;
+  padding: 35px 15px 20px 15px;
+}
+
+.nav ul .tabs a:link {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #000000;
+  text-align: center;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer ul a:link {
+  text-decoration: none;
+}
+
+.footer .foot-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .foot-tabs li {
+  padding: 20px 15px 10px 15px;
+}
+
+.footer .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .social-media li {
+  padding: 10px 15px 20px 15px;
+}
+
+.footer p {
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
