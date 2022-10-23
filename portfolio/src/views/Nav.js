@@ -6,14 +6,14 @@ function Nav() {
         <div className='nav'>
             <ul>
                 <div className="my-title">
-                    <li><Link to="/" style={{color: '#FFF8DC'}}>Amanda C. Woods</Link></li>
+                    <li><Link to="/" style={{color: '#F5FFFA'}}>Amanda C. Woods</Link></li>
                 </div>
                 <div className="tabs">
-                    <li><Link to="/" style={{color: '#FFF8DC'}}>About Me</Link></li>
-                    <li><Link to="/projects" style={{color: '#FFF8DC'}}>Projects</Link></li>
-                    <li><Link to="/contact" style={{color: '#FFF8DC'}}>Contact</Link></li>
-                    <li><a href="https://github.com/ACatWalks" style={{color: '#FFF8DC'}}>GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/amandacwoods/" style={{color: '#FFF8DC'}}>LinkedIn</a></li>
+                    <li><Link to="/" style={{color: '#F5FFFA'}}>About Me</Link></li>
+                    <li><Link to="/projects" style={{color: '#F5FFFA'}}>Projects</Link></li>
+                    <li><Link to="/contact" style={{color: '#F5FFFA'}}>Contact</Link></li>
+                    <li><a href="https://github.com/ACatWalks" style={{color: '#F5FFFA'}}>GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/amandacwoods/" style={{color: '#F5FFFA'}}>LinkedIn</a></li>
                 </div>
             </ul>
             <Outlet />

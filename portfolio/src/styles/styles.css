@@ -1,5 +1,7 @@
 body {
   font-family: "Helvetica";
+  background-color: #F5FFFA;
+  color: #000000;
 }
 
 .nav {
@@ -48,9 +50,15 @@ body {
   text-decoration: none;
 }
 
+.nav ul .tabs a:hover {
+  color: #0000CD;
+}
+
 .footer {
   background-color: #000000;
+  color: #F5FFFA;
   text-align: center;
+  margin-top: 150px;
 }
 
 .footer ul {
@@ -78,7 +86,11 @@ body {
 }
 
 .footer .foot-tabs li {
-  padding: 20px 15px 10px 15px;
+  padding: 20px 15px 5px 15px;
+}
+
+.footer .foot-tabs a:hover {
+  color: #0000CD;
 }
 
 .footer .social-media {
@@ -91,10 +103,27 @@ body {
 }
 
 .footer .social-media li {
-  padding: 10px 15px 20px 15px;
+  padding: 5px 15px 20px 15px;
 }
 
 .footer p {
   text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact button {
+  color: #F5FFFA;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -2,6 +2,8 @@
 
 body{
     font-family: $regular;
+    background-color: $cream;
+    color: $black;
 }
 .nav {
     background-color: $black;
@@ -29,12 +31,17 @@ body{
             & a:link {
                 text-decoration: none;
             }
+            & a:hover {
+                color: $hover-color;
+            }
         }
     }
 }
 .footer {
     background-color: $black;
+    color: $cream;
     text-align: center;
+    margin-top: 150px;
     & ul {
         list-style-type: none;
         display: flex;
@@ -47,17 +54,34 @@ body{
         display: flex;
         justify-content: center;
         & li {
-            padding: 20px 15px 10px 15px;
+            padding: 20px 15px 5px 15px;
+        }
+        & a:hover {
+            color: $hover-color;
         }
     }
     & .social-media{
         display: flex;
         justify-content: center;
         & li {
-            padding: 10px 15px 20px 15px;
+            padding: 5px 15px 20px 15px;
         }
     }
     & p {
         text-align: center;
+    }
+}
+.contact {
+    text-align: center;
+    & li {
+        list-style: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    & button {
+        color: $cream;
+        background-color: $black;
+        padding: 10px;
+        border-radius: 50%;
     }
 }
