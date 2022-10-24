@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link, Outlet} from 'react-router-dom'
+import {FaGithub} from "react-icons/fa"
+import {FaLinkedin} from "react-icons/fa"
 
 function Footer() {
     return (
@@ -10,8 +12,8 @@ function Footer() {
                 <li><Link to="/contact" style={{color: '#F5FFFA'}}>Contact</Link></li>
             </ul>
             <ul className='social-media'>
-                <li><a href="https://github.com/ACatWalks" style={{color: '#F5FFFA'}}>GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/amandacwoods/" style={{color: '#F5FFFA'}}>LinkedIn</a></li>
+                <li><a href="https://github.com/ACatWalks" style={{color: '#F5FFFA'}}><FaGithub /></a></li>
+                <li><a href="https://www.linkedin.com/in/amandacwoods/" style={{color: '#F5FFFA'}}><FaLinkedin /></a></li>
             </ul>
             <p className='copyright' style={{color: '#F5FFFA'}}>©2022 Amanda C. Woods</p>
             <Outlet />

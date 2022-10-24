@@ -32,7 +32,7 @@ body{
                 text-decoration: none;
             }
             & a:hover {
-                color: $hover-color;
+                color: $hover-color !important;
             }
         }
     }
@@ -55,9 +55,9 @@ body{
         justify-content: center;
         & li {
             padding: 20px 15px 5px 15px;
-        }
-        & a:hover {
-            color: $hover-color;
+            & a:hover {
+                color: $hover-color !important;
+            }
         }
     }
     & .social-media{

@@ -51,7 +51,7 @@ body {
 }
 
 .nav ul .tabs a:hover {
-  color: #0000CD;
+  color: #0000CD !important;
 }
 
 .footer {
@@ -89,8 +89,8 @@ body {
   padding: 20px 15px 5px 15px;
 }
 
-.footer .foot-tabs a:hover {
-  color: #0000CD;
+.footer .foot-tabs li a:hover {
+  color: #0000CD !important;
 }
 
 .footer .social-media {
