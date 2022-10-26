@@ -51,7 +51,7 @@ body {
 }
 
 .nav ul .tabs a:hover {
-  color: #0000CD !important;
+  color: #00FFFF !important;
 }
 
 .footer {
@@ -90,7 +90,7 @@ body {
 }
 
 .footer .foot-tabs li a:hover {
-  color: #0000CD !important;
+  color: #00FFFF !important;
 }
 
 .footer .social-media {
@@ -129,7 +129,12 @@ body {
 .contact button {
   color: #F5FFFA;
   background-color: #000000;
+  text-decoration: none;
   padding: 10px;
   border-radius: 50%;
+}
+
+.contact button a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */
