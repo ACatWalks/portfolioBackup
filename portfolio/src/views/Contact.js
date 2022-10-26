@@ -12,10 +12,10 @@ function Contact() {
             <Nav />
             <h1>Contact Me</h1>
             <ul>
-                <li id="email"><FaEnvelope /><strong>Email</strong>:  acwoods314@gmail.com</li>
-                <li id="github"><FaGithub /><strong>GitHub</strong>:     <a href="https://github.com/ACatWalks">https://github.com/ACatWalks</a></li>
-                <li id="linkedin"><FaLinkedin /><strong>LinkedIn</strong>:   <a href="https://www.linkedin.com/in/amandacwoods/">https://www.linkedin.com/in/amandacwoods/</a></li>
-                <li id="resume"><FaFileDownload /><strong>Resume</strong>:     <button>Download</button></li>
+                <li className="email"><span className='fa-icon'><FaEnvelope /></span><strong>Email</strong>:  <a href="mailto:acwoods314@gmail.com">acwoods314@gmail.com</a></li>
+                <li className="github"><span className='fa-icon'><FaGithub /></span><strong>GitHub</strong>:     <a href="https://github.com/ACatWalks">https://github.com/ACatWalks</a></li>
+                <li className="linkedin"><span className='fa-icon'><FaLinkedin /></span><strong>LinkedIn</strong>:   <a href="https://www.linkedin.com/in/amandacwoods/">https://www.linkedin.com/in/amandacwoods/</a></li>
+                <li className="resume"><span className='fa-icon'><FaFileDownload /></span><strong>Resume</strong>:     <button><a href="https://drive.google.com/file/d/1PE26OhotmfFHxcQUovIsUfP34lnSV3uI/view?usp=sharing" download style={{color: '#F5FFFA'}}>Download</a></button></li>
             </ul>
             <Footer />
         </div>
