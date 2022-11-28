@@ -137,4 +137,30 @@ body {
 .contact button a {
   text-decoration: none;
 }
+
+.about #headline {
+  text-align: center;
+}
+
+.about .container {
+  border-bottom: 1px dotted #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about .container .left {
+  width: 60%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.about .container .right {
+  width: 40%;
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */

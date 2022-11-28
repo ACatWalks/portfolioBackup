@@ -94,3 +94,22 @@ body{
         }
     }
 }
+.about {
+    & #headline {
+        text-align: center;
+    }
+    & .container {
+        border-bottom: 1px dotted $black;
+        display: flex;
+        flex-direction: row;
+        & .left{
+            width: 60%;
+            padding-left: 20px;
+            padding-bottom: 10px;
+        }
+        & .right {
+            width: 40%;
+            text-align: center;
+        }
+    }
+}
