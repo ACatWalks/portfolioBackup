@@ -17,6 +17,10 @@ function About() {
                     <p>Insert Photo Here</p>
                     </div>
             </div>
+            <h2 id='skills'>Skills</h2>
+            <div className='button-container'>
+            <button><a href='./contact' style={{color: '#F5FFFA'}}>Contact Amanda</a></button>
+            </div>
             <Footer />
         </div>
     )

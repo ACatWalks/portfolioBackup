@@ -112,4 +112,21 @@ body{
             text-align: center;
         }
     }
+    & #skills{
+        text-align: center;
+    }
+    & button{
+        color: $cream;
+        background-color: $black;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 50%;
+        & a{
+            text-decoration: none;
+        } 
+    }
+    & .button-container{
+        display: flex;
+        justify-content: center;
+    }
 }
