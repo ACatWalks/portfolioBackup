@@ -18,6 +18,41 @@ function About() {
                     </div>
             </div>
             <h2 id='skills'>Skills</h2>
+            <div className='card-container'>
+                <div className='card'>
+                    <div className='header'><h1>Front End</h1></div>
+                    <div className='body'>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS and SCSS</li>
+                            <li>Javascript</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className='header'><h1>Back End</h1></div>
+                    <div className='body'>
+                        <ul>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Express</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className='header'><h1>Others</h1></div>
+                    <div className='body'>
+                        <ul>
+                            <li>Git</li>
+                            <li>Agile Programming</li>
+                            <li>Basic cybersecurity</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div className='button-container'>
             <button><a href='./contact' style={{color: '#F5FFFA'}}>Contact Amanda</a></button>
             </div>
