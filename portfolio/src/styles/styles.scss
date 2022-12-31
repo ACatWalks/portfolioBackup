@@ -109,7 +109,10 @@ body{
         }
         & .right {
             width: 40%;
-            text-align: center;
+            background-image: url('../images/F2DB58BE-B88D-4118-9905-169F5349A83A.jpeg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
         }
     }
     & #skills{
@@ -150,6 +153,24 @@ body{
               padding-bottom: 10px;
               padding-left: 10px;
             }
+        }
+    }
+    & .hero{
+        text-align: center;
+        background-image: url('../images/hexagon-structure-1c-1633276.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        & .hero-txt {
+            color: $cream;
+            border: 5px solid $cream;
+            width: 30%;
+            background-color: $black;
+            opacity: 0.75;
         }
     }
 }
