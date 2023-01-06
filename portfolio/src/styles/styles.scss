@@ -174,3 +174,50 @@ body{
         }
     }
 }
+.projects{
+    text-align: center;
+    & .project-card-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        & .card{
+            width: 30%;
+            border: 1px dotted;
+            padding: 10px;
+            & .repo-button{
+                & a{
+                    text-decoration: none;
+                    margin-left: 5px;
+                    color: $cream;
+                }
+                padding: 10px;
+                border-radius: 10%;
+                background-color: $black;
+            }
+            & .lang-button{
+                padding: 10px;
+                border-radius: 10%;
+                background-color: $cream;
+                color: $black;
+            }
+        }
+    }
+    & #img-1{
+        background-image: url('../images/fabian-wiktor-MBKFuFqlMwo-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
+    & #img-2{
+        background-image: url('https://gradepowerlearning.com/wp-content/uploads/2017/08/AdobeStock_104330101.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
+    & #img-3{
+        background-image: url('https://walkingmobilityclinics.com/wp-content/uploads/2019/01/group-of-doctors-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
+}
