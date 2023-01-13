@@ -24,6 +24,12 @@ body{
             display: flex;
             flex-direction: row;
             margin-left: 400px;
+            @media screen and (max-width: 950px){
+                margin-left: 50px;
+            }
+            @media screen and (max-width: 650px){
+                display: none;
+            }
             & li {
                 text-decoration: none;
                 padding: 35px 15px 20px 15px;
@@ -83,12 +89,42 @@ body{
             margin-right: 10px;
         }
     }
+    & .linkedin{
+        position: relative;
+        left: 78px;
+        @media screen and (max-width: 500px){
+            display: none;
+        }
+    }
+    & .github{
+        position: relative;
+        left: 20px;
+        @media screen and (max-width: 300px){
+            position: relative;
+            left: 8px;
+        }
+    }
+    & .resume{
+        position: relative;
+        right: 24px;
+        @media screen and (max-width: 300px){
+            position: relative;
+            right: 15px;
+            & .resume-container{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
     & button {
         color: $cream;
         background-color: $black;
         text-decoration: none;
         padding: 10px;
         border-radius: 50%;
+        @media screen and (max-width: 300px){
+            padding: 5px;
+        }
         & a{
             text-decoration: none;
         }
@@ -106,6 +142,9 @@ body{
             width: 60%;
             padding-left: 20px;
             padding-bottom: 10px;
+            @media screen and (max-width: 650px){
+                width: 100%;
+            }
         }
         & .right {
             width: 40%;
@@ -113,6 +152,9 @@ body{
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
+            @media screen and (max-width: 650px) {
+                display: none;
+            }
         }
     }
     & #skills{
@@ -136,11 +178,25 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: center;
+        @media screen and (max-width: 650px){
+            margin-left: 15px;
+        }
+        @media screen and (max-width: 300px){
+            margin-left: 66px;
+        }
         & .card{
             border: 1px solid black;
             margin-left: 15px;
             margin-right: 15px;
             margin-bottom: 35px;
+            @media screen and (max-width:650px){
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            @media screen and (max-width: 300px){
+                margin-left: 1px;
+                margin-right: 1px;
+            }
             & .header{
                 text-align: center;
                 background-color: lightgrey;
@@ -152,6 +208,18 @@ body{
               padding-top: 10px;
               padding-bottom: 10px;
               padding-left: 10px;
+              @media screen and (max-width: 650px){
+                padding-right: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 5px;
+              }
+              @media screen and (max-width: 300px){
+                padding-right: 5px;
+                padding-top: 1px;
+                padding-bottom: 1px;
+                padding-left: 1px;
+              }
             }
         }
     }
@@ -171,6 +239,9 @@ body{
             width: 30%;
             background-color: $black;
             opacity: 0.75;
+            @media screen and (max-width: 650px){
+                width: 75%;
+            }
         }
     }
 }
@@ -180,10 +251,18 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        @media screen and (max-width: 300px){
+            justify-content: space-between;
+        }
         & .card{
             width: 30%;
             border: 1px dotted;
             padding: 10px;
+            @media screen and (max-width: 300px){
+                & h3{
+                    font-size: 0.5em;
+                }
+            }
             & .repo-button{
                 & a{
                     text-decoration: none;
@@ -199,6 +278,9 @@ body{
                 border-radius: 10%;
                 background-color: $cream;
                 color: $black;
+                @media screen and (max-width: 650px){
+                    display: none;
+                }
             }
         }
     }
